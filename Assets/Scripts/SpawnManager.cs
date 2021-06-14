@@ -8,21 +8,20 @@ public class SpawnManager : MonoBehaviour
 
     [SerializeField] private GameObject[] animalPrefabs;
     private float m_ZSpawnPosition = 20;
+    private float m_SpawnInterval = 1.5f;
+    private float m_StartDelay = 2.0f;
   
    
     // Start is called before the first frame update
     void Start()
     {
-        
+        InvokeRepeating(nameof(SpawnRandomAnimal), m_StartDelay, m_SpawnInterval);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-           SpawnRandomAnimal();
-        }
+        
     }
 
     void SpawnRandomAnimal()

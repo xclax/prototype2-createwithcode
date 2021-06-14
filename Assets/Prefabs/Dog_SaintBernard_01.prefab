@@ -1475,8 +1475,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5185983663049694372}
   - component: {fileID: 3731395439245974345}
-  - component: {fileID: 6718453630142914948}
-  - component: {fileID: 7459883387091047744}
+  - component: {fileID: 4208802322324170256}
+  - component: {fileID: 7786249879759298928}
   m_Layer: 0
   m_Name: Dog_SaintBernard_01
   m_TagString: Untagged
@@ -1491,7 +1491,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487046739114350335}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.000000029802319}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0.00000010649882, y: 0, z: 14.791911}
   m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children:
@@ -1554,7 +1554,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6718453630142914948
+--- !u!114 &4208802322324170256
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1563,22 +1563,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1487046739114350335}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b2daa751f52da5908c3e89e0b5b8815, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ffcfb6404cc79a41b26b8b2e37fce7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7786249879759298928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487046739114350335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432249f6a46159b93a17b7be53e3e9b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
---- !u!114 &7459883387091047744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1487046739114350335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18d9fcbc98019323b993ced99f48d7dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1588004486814398513
 GameObject:
   m_ObjectHideFlags: 0
